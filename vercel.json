@@ -1,6 +1,6 @@
 {
   "buildCommand": "pnpm --dir velocity-film run build",
-  "installCommand": "pnpm --dir velocity-film install --ignore-workspace --no-frozen-lockfile",
+  "installCommand": "npm install --prefix velocity-film --workspaces=false",
   "outputDirectory": "velocity-film/dist",
   "framework": "vite"
 }
