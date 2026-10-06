@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd velocity-film && pnpm run build",
+  "installCommand": "cd velocity-film && pnpm install --ignore-workspace",
+  "outputDirectory": "velocity-film/dist",
+  "framework": "vite"
+}
